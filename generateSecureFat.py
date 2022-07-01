@@ -1,5 +1,7 @@
 #
-# UbiArt secure_fat.gf file generator from existing IPK bundles by https://github.com/wukko
+# https://github.com/wukko/ubiart-secure-fat
+#
+# UbiArt secure_fat.gf file generator using existing IPK bundles by https://github.com/wukko
 # Tested on Just Dance 2015 - 2022 games on PC, Wii, Wii U, Nintendo Switch (NX).
 # This script should work for Rayman Legends/Origins and other UbiArt games too.
 #
@@ -9,7 +11,7 @@
 
 import os
 
-# modify these variables for standalone use if needed
+# Modify these variables for standalone use if needed
 out = "secure_fat.gf"
 bext = ".ipk"
 ignore = ["patch"]
