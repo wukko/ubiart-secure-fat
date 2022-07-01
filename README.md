@@ -1,8 +1,8 @@
 # ubiart-secure-fat
-This Python script generates a `secure_fat.gf` file using existing UbiArt IPK bundles.
+UbiArt `secure_fat.gf` file generator that is essential for modding any UbiArt game.
 
 ## Why?
-`secure_fat.gf` file contains a list of file path hashes in each game bundle. UbiArt games use it to locate files and load them. Without editing this file it's impossible to load custom files. This script generates a fresh file that includes all files in official or modified game bundles. It has been used personally by me for many years to create mods for Just Dance.
+`secure_fat.gf` file contains a list of file path hashes in each game bundle. UbiArt games use it to locate files and load them. Without editing this file it's impossible to load custom files. This script generates a fresh file that includes all files in official or custom IPK bundles. It has been used personally by me for many years to create mods for Just Dance.
 
 ## Supported games
 - Just Dance 2015 - 2022 on all platforms (probably Just Dance 2014 too, haven't tested it)
