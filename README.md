@@ -16,6 +16,7 @@ This script doesn't depend on any external modules. All you need is Python 3+.
 2. Copy downloaded file to desired game directory
 3. Run it by opening command prompt or terminal in directory and running `py generateSecureFat.py`
 4. Boom, you have a perfect `secure_fat.gf` file!
+You can also use this script as a module (like I usually do).
 
 ## Customization
 You can edit the `generateSecureFat.py` file in your preferred code editor and change default values to match your modded game.
