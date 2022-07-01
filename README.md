@@ -21,4 +21,4 @@ This script doesn't depend on any external modules. All you need is Python 3+.
 You can also use this script as a module (like I usually do).
 
 ## Customization
-You can edit the `generateSecureFat.py` file in your preferred code editor and change default values to match your modded game.
+You can change default values in the `generateSecureFat.py` file to match your modded game.
