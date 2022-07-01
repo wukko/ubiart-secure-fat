@@ -1,5 +1,5 @@
 # ubiart-secure-fat
-This Python script generates `secure_fat.gf` file using existing UbiArt IPK bundles.
+This Python script generates a `secure_fat.gf` file using existing UbiArt IPK bundles.
 
 ## Why would I need this?
 `secure_fat.gf` file contains a list of file path hashes in each game bundle. UbiArt games use it to locate files and load them. Without editing this file it's impossible to load custom files. This script generates a fresh file that includes all files in official or modified game bundles. It has been used personally by me for many years to create mods for Just Dance.
@@ -18,4 +18,4 @@ This script doesn't depend on any external modules. All you need is Python 3+.
 4. Boom, you have a perfect `secure_fat.gf` file!
 
 ## Customization
-You can edit `generateSecureFat.py` file in your preferred code editor and change default values to match your modded game.
+You can edit the `generateSecureFat.py` file in your preferred code editor and change default values to match your modded game.
