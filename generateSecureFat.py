@@ -15,7 +15,7 @@ import os
 out = "secure_fat.gf"
 bext = ".ipk"
 ignore = ["patch"]
-p = ["pc", "wii", "wiiu", "nx", "x360", "durango", "scarlett", "ps3", "orbis", "prospero", "ggp"]
+p = ["pc", "wiiu", "wii", "nx", "x360", "durango", "scarlett", "ps3", "orbis", "prospero", "ggp"]
 
 def nameOnly(name, ext):
     name = name.split('/')[len(name.split('/'))-1]
